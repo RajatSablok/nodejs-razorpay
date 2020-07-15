@@ -1,0 +1,22 @@
+{
+  "name": "razorpay-backend",
+  "version": "1.0.0",
+  "description": "NodeJs backend for Razorpay payment portal ",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "author": "Rajat Sablok",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "razorpay": "^2.0.6",
+    "shortid": "^2.2.15"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
